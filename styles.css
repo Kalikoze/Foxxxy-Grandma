@@ -225,8 +225,37 @@ input {
   padding: 15px;
 }
 
+.mike {
+  display: none;
+}
+
 @media screen and (max-width: 900px) {
-  
+
+
+.mike {
+  display: block;
+  position: absolute;
+  width: 100%;
+  top: 100px;
+  height: 400px;
+  /*background: red;*/
+}
+
+.mike-box {
+  display: block;
+  /*position: absolute;*/
+  width: 50%;
+  /*top: 100px;*/
+  height: 400px;
+  /*background: green;*/
+  margin: auto;
+  overflow: hidden;
+}
+
+.mike-video {
+  width: 100%;
+}
+
 }
 
 
