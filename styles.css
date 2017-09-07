@@ -1,0 +1,233 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+}
+
+header {
+  background: white;
+  height: 10vh;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header div {
+  display: inline-block;
+  margin:0;
+  width: calc(100%/3);
+  height: 100%;
+}
+
+h1 {
+  font-family: 'Yesteryear', cursive;
+  color: red;
+  font-size: 40px;
+  text-shadow: 2px 2px 6px #000;
+  margin-left: 30px;
+}
+
+input {
+  width: 80%;
+  height: 30%;
+}
+
+.spacer {
+  height: 10vh;
+  width: 100%;
+}
+
+.main-area {
+  background: #60767A;
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+}
+
+.grandma {
+  height: 50px;
+  margin-left: 20%;
+}
+
+.name, .logout {
+  margin-left: 10%;
+}
+
+.fox {
+  display: inline-block;
+  height: 70%;
+  margin-left: 30px;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.recent-workouts {
+  width: 300px;
+  height: 500px;
+  margin-top: 10vh;
+}
+
+.fitness-goals {
+  height: 500px;
+  width: 300px;
+  margin-top: 10vh;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+.calendar {
+  height: 500px;
+  width: 300px;
+  margin-top: 10vh;
+}
+
+.squares {
+  width: 100%;
+}
+
+.tab-section  {
+  width: 100%;
+  height: 30vh;
+  background: #60767A;;
+}
+
+.upper-tab  {
+  /*background: red;*/
+  height: 5vh;
+  position: relative;
+  width: 100%
+}
+
+.lower-tab  {
+  background: #8cacae;
+  height: 25vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tab1 {
+  width: 15%;
+  color: white;
+  height: 5vh;
+  position: absolute;
+  font-family: sans-serif;
+  background: #8cacae;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.tab2 {
+  width: 15%;
+  position: absolute;
+  height: 4vh;
+  left: 15%;
+  top: 20%;
+  font-family: sans-serif;
+  background: #dfdfdf;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  justify-content: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.tab3 {
+  width: 15%;
+  position: absolute;
+  left: 30%;
+  top: 20%;
+  height: 4vh;
+  font-size: 20px;
+  font-family: sans-serif;
+  background: #dfdfdf;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.background:hover {
+  border-width: 2px 2px 0 2px;
+  border-style: solid;
+  border-color: red;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.well-done {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  height: 70%;
+  /*margin-left: -177px;*/
+  /*margin-top: 3%;*/
+  background: #dfdfdf;
+}
+
+.flowers {
+  display: inline-block;
+  width: 125px;
+  transform: rotate(20deg);
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+.well-done-text {
+  display: inline-block;
+  font-size: 29px;
+  font-family: sans-serif;
+  color: #4F6073;
+  margin-left: 50px;
+}
+
+.message  {
+  font-size: 20px;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  width: 30%;
+  height: 70%;
+  margin-left: 40px;
+  background: #dfdfdf;
+  color: #4F6073;
+  padding: 15px;
+}
+
+@media screen and (max-width: 900px) {
+  
+}
+
+
+/*font-family: 'Yesteryear', cursive;*/
